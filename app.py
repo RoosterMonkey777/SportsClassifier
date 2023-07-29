@@ -7,10 +7,10 @@ __all__ = ['temp', 'learn', 'categories', 'image', 'label', 'examples', 'intf', 
 from fastai.vision.all import *
 import gradio as gr
 
-# %% ../app.ipynb 2
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# # %% ../app.ipynb 2
+# import pathlib
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 
 # %% ../app.ipynb 4
 learn = load_learner('model.pkl')
